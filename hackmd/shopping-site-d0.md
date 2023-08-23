@@ -9,6 +9,10 @@
 
 此專案的Github連結: [https://github.com/AloneAlongLife/shopping-demo](https://github.com/AloneAlongLife/shopping-demo)
 
+Github的更新進度跟本系列**不會同步**，因為經驗的關係，專案的步驟對於新手可能會顯得有些無厘頭(例如第一個步驟就是先將設定檔寫好，但必須要先用過個套件後才會知道需要那些設定)，因此不會依照開發進度撰寫文章，所以可能會出現文章中的東西在專案裡沒有，或是專案中的語法在文章中沒有提到，還請耐心等待、多多包涵。
+
+然後文章中有些語法我也不知道為甚麼~~就是抄來的~~，所以只會講個大概，或是我自己的理解，也歡迎各位進行補充、指正。
+
 ## 壹、語言與框架
 ### 一、前端
  - 語言
@@ -22,6 +26,9 @@
      - Python(>=3.10)
  - 框架
      - FastAPI
+
+### 三、資料庫
+由於是使用ORM的模組進行資料存取，因此(理論上)可以兼容各種資料庫，在本系列中將會使用SQLite作為資料庫，若要使用其他資料庫，可以自行查詢[Sqlalchemy的文件](https://docs.sqlalchemy.org/en/20/core/engines.html#database-urls)。
 
 ## 貳、架構
 ### 一、頁面

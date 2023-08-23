@@ -1,0 +1,8 @@
+{
+    "address": "0.0.0.0",
+    "port": 8080,
+    "secret": "",
+    "db_url": "sqlite+aiosqlite://data.db",
+    "check_same_thread": true,
+    "debug": false
+}
