@@ -218,4 +218,4 @@ Github的更新進度跟本系列**不會同步**，因為經驗的關係，專�
      - 過期時間: 1天
 
 ---
-下一篇: [我還沒想好標題](https://hackmd.io/@zhihao/shopping-site-d1)
+下一篇: [從0開始做一個購物網站-FastAPI淺介 Day-1](https://hackmd.io/@zhihao/shopping-site-d1)
