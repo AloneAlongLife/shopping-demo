@@ -34,7 +34,7 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return "Hello World"
+    return "Hello World!"
 ```
 打開終端機，輸入：
 ```bash
@@ -47,7 +47,7 @@ INFO:     Waiting for application startup.
 INFO:     Application startup complete.
 INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
 ```
-這個時候打開瀏覽器，前往[http://localhost:8000](http://localhost:8000)，應該會看到一個`"Hello World"`出現在左上角，那就代表你已經成功啟動了伺服器。
+這個時候打開瀏覽器，前往[http://localhost:8000](http://localhost:8000)，應該會看到一個`"Hello World!"`出現在左上角，那就代表你已經成功啟動了伺服器。
 
 ### 三、拆分講解
 1. 導入套件
@@ -64,7 +64,7 @@ app = FastAPI()
 ```python=5
 @app.get("/")
 def read_root():
-    return "Hello World"
+    return "Hello World!"
 ```
 在FastAPI中是利用修飾器(Decorator)去定義路徑，前面的`app`就是在上一步中所建立的物件，括號中的`"/"`就是路徑，而中間的`get`則代表請求這個路徑的方式，共有以下幾種：
 - GET: `get`
@@ -101,4 +101,4 @@ def delete_root():
 ---
 上一篇: [從0開始做一個購物網站-架構整理 Day-0](https://hackmd.io/@zhihao/shopping-site-d0)
 
-下一篇: [從0開始做一個購物網站-傳遞資料 Day-2](https://hackmd.io/@zhihao/shopping-site-d2)
+下一篇: [從0開始做一個購物網站-接收資料 Day-2](https://hackmd.io/@zhihao/shopping-site-d2)
