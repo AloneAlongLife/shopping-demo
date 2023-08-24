@@ -28,7 +28,11 @@ Github的更新進度跟本系列**不會同步**，因為經驗的關係，專�
      - FastAPI
 
 ### 三、資料庫
-由於是使用ORM的模組進行資料存取，因此(理論上)可以兼容各種資料庫，在本系列中將會使用SQLite作為資料庫，若要使用其他資料庫，可以自行查詢[Sqlalchemy的文件](https://docs.sqlalchemy.org/en/20/core/engines.html#database-urls)。
+由於是使用ORM的模組進行資料存取，因此(理論上)可以兼容各種資料庫，在本系列中將會使用SQLite作為資料庫，若要使用其他資料庫，可以自行查詢[SQLAlchemy的文件](https://docs.sqlalchemy.org/en/20/core/engines.html#database-urls)。
+
+:::warning
+:warning: 由於SQLModel的關係，本系列文章使用的SQLAlchemy版本為1.4，與目前最新版本的2.0會有些許差異，在查詢資料時還請特別注意。
+:::
 
 ## 貳、架構
 ### 一、頁面
