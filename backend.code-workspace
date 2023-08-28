@@ -1,12 +1,16 @@
 {
 	"folders": [
 		{
-			"name": "backend",
+			"name": "後端",
 			"path": "backend"
 		},
 		{
-			"name": "frontend",
+			"name": "前端",
 			"path": "frontend"
+		},
+		{
+			"name": "文章",
+			"path": "hackmd"
 		}
 	],
 	"settings": {}
